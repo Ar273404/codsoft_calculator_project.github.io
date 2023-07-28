@@ -1,0 +1,154 @@
+.main
+{
+    background-image: url('background.jpg');
+    background-size: cover;
+    background-position:fixed;
+    background-repeat: no-repeat;
+}
+.cantainer
+{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+.cal
+{
+    border-radius: 20px;
+    padding: 10px;
+    background: #3a4452;
+}
+.cal form input
+{
+    border: 0;
+    outline: 0;
+    width: 70px;
+    height: 40px;
+    border-radius: 20px;
+    box-shadow: -8px -8px 15px rgba(255,255,255,0.1),5px 5px 15px rgba(0,0,0,0.6);
+    background: transparent;
+    font-size: 30px;
+    color: #e3f9ff;
+    cursor: pointer;
+    margin: 20px;
+
+}
+.display
+{
+    display: flex;
+    justify-content: flex-end;
+    margin: 20px 0px;
+}
+.display input
+{
+    text-align: right;
+    flex: 1;
+    font-size:45px ;
+    box-shadow: none;
+}
+form input.equal
+{
+    width:170px;
+}
+#operator
+{
+    background-color:blue;
+}
+#ac
+{
+    background-color: red;
+}
+#de
+{
+    background-color: green;
+}
+#n
+{
+    color:magenta ;
+}
+#op
+{
+    background-color:teal;
+}
+#eq
+{
+    background-color: darkred;
+}
+@media(max-width:632px)
+{
+
+    .cantainer
+    {
+        height: 90vh;
+        padding-top: 50px;
+    }
+    .cal
+    {
+        border-radius: 20px;
+        padding-top: 40px;
+    }
+    .cal form input
+    {
+        width: 60px;
+        height: 40px;
+        font-size: 25px;
+        margin: 15px;
+    
+    }
+    .display
+    {
+        margin: 1px 0px;
+    }
+    .display input
+    {
+        font-size:15px ;
+    }
+    form input.equal
+     {
+      width:150px;
+     }
+     
+   
+}
+@media(max-width:504px)
+{
+    .main
+    {
+        height:800px;
+    }
+    .cantainer
+    {
+        height: 70px;
+        display: flex;
+        align-items: center;
+        padding-top: 350px;
+       
+    }
+    .cal
+    {
+        border-radius: 20px;
+        padding-top: 40px;
+    }
+    .cal form input
+    {
+        border: 0;
+        outline: 0;
+        width: 50px;
+        height: 40px;
+        border-radius: 20px;
+        box-shadow: -8px -8px 15px rgba(255,255,255,0.1),5px 5px 15px rgba(0,0,0,0.6);
+        background: transparent;
+        font-size: 20px;
+        color: #e3f9ff;
+        cursor: pointer;
+        margin: 4px;
+    
+    }
+    form input.equal
+  {
+    width:130px;
+  }
+   
+}
